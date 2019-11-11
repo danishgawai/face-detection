@@ -9,6 +9,8 @@ and try to train the model with limited data . hence unable to achieve higher ac
 Again we train the model with transfer learning from vgg16 model which uses imagenet as weights.
 Now we train our model with already available model by changing the final hidden layer according to our model reqirements.
  This type of learning is called transfer learning and by this we are able to achieve higher accuracy with less data.
+ To attain higher accuracy we made use MTCNN library which extract only face from the images and we trained the model only on faces
+ where we got an accuracy of 100 percent.
  
  
   	    In this code we will also see how we can save our loaded data in .dat format where we save our data as an array rather than image
